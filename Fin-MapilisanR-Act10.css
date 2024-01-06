@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+p, h3,a {
+  color: white;
+  text-shadow: 0 0 2px black, 0 0 2px black;
+}
+
+.body0 {
+  display: grid;
+  place-items: center;
+  
+  background-image: url('bansa/globe.jpg');
+  background-size: cover; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: arial;
+}
+
+h1, h1 {
+	color: white;
+	text-align: center;
+	text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+	
+    }
+
+div.gallery {
+  padding: 7px;
+  margin: 5px;
+
+  border: 1px solid #ccc;
+  float: left;
+
+  height: 400px;
+  width: 250px;
+  background-color: rgba(50, 68, 58, 0.75);
+  transition: 0.5s;
+}
+
+div.gallery h1 {
+  font-size: 25px;
+}
+
+
+div.gallery:hover {
+  border: 1px double #777;
+  background-color: rgba(16, 44, 28, 0.80);
+  transform: scale(1.05); 
+}
+
+div.gallery img {
+  width: 250px;
+  height: 175px;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: justify;
+}
